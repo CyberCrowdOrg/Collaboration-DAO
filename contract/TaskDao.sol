@@ -17,7 +17,7 @@ contract TaskDao is Ownable {
     }
 
     function publishTask() external returns (uint256){
-
+        //publish a task in the DAO 
     }
 
     function acceptTask(uint256 _taskId) external returns (bool){
@@ -25,10 +25,10 @@ contract TaskDao is Ownable {
     }
 
     function negotiate() external {
-
+        //negotiate with the publisher or others in the DAO
     }
 
     function submit() external {
-
+        //submit your result and create a proposal, all the people can vote for your result
     }
 }
